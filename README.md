@@ -2,10 +2,10 @@
 This is my Template for deploying machine learning models. The machine learning algorithm is simple multiple regression.
 
 ### Structure
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+1. model.py 
+2. app.py 
+3. request.py 
+4. templates
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
@@ -22,11 +22,9 @@ By default, flask will run on port 5000.
 
 3. Navigate to URL http://localhost:5000
 
-You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
-
 Enter valid numerical values in all 3 input boxes and hit Predict.
 
-If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
+If everything goes well, you should  be able to see the predcited salary vaule on the HTML page! 
+
 ![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
 
